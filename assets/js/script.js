@@ -14,7 +14,7 @@ function slider(){
         count=1;
     }
     console.log(img);
-    img.innerHTML = "<img src="+slides[count-1]+">";
+    img.innerHTML = `<img src="${slides[count-1]}">`;
    
 }
 setInterval(slider,1500);
